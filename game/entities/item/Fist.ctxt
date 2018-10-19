@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=x\ y\ width\ height\ bounds\ handler\ value\ damage\ cooldown\ knockbackX\ knockbackY
+comment0.target=Fist(float,\ float,\ int,\ int,\ java.awt.Rectangle,\ game.Handler,\ int,\ float,\ int,\ float,\ float)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Fist\n
+comment1.params=g
+comment1.target=void\ render(java.awt.Graphics)
+numComments=2

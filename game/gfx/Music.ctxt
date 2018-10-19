@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=currentSong
+comment0.target=Music(java.lang.String)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Music\n
+comment1.params=
+comment1.target=void\ start()
+comment10.params=
+comment10.target=void\ playMusic()
+comment2.params=
+comment2.target=void\ stop()
+comment3.params=
+comment3.target=void\ init()
+comment4.params=
+comment4.target=void\ run()
+comment5.params=url
+comment5.target=void\ doPlay(java.lang.String)
+comment6.params=
+comment6.target=void\ stopPlay()
+comment7.params=
+comment7.target=void\ checkMusic()
+comment8.params=musicFile
+comment8.target=void\ changeMusic(java.lang.String)
+comment9.params=
+comment9.target=void\ musicStart()
+numComments=11

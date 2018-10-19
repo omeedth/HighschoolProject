@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=string\ x\ y\ width\ height\ handler\ clicker
+comment0.target=UILabel(java.lang.String,\ float,\ float,\ int,\ int,\ game.Handler,\ Clickable)
+comment1.params=
+comment1.target=void\ update()
+comment1.text=\n\ updates\ the\ buttons\ variables\n
+comment2.params=g\ x\ y
+comment2.target=void\ render(java.awt.Graphics,\ float,\ float)
+comment3.params=g
+comment3.target=void\ render(java.awt.Graphics)
+comment3.text=\n\ draws\ the\ button\ onto\ the\ screen\n
+comment4.params=
+comment4.target=void\ onClick()
+comment5.params=string
+comment5.target=void\ setString(java.lang.String)
+numComments=6

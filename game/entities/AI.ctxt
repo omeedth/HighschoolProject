@@ -1,0 +1,34 @@
+#BlueJ class context
+comment0.params=creature\ mover\ attacker\ idle
+comment0.target=AI(creature.Creature,\ Movable,\ Attackable,\ Idle)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ AI\n
+comment1.params=
+comment1.target=void\ stop()
+comment10.params=x\ y
+comment10.target=void\ moveIgnoreBoth(float,\ float)
+comment11.params=
+comment11.target=void\ move()
+comment11.text=\n\ \ \ \ idleCount\ \=\ 0;\n\ \ \ \ ArrayList<Velocity>\ moves\ \=\ possibleMoves(x,y);\n\ \ \ \ int\ size\ \=\ moves.size();\n\ \ \ \ int\ randomMove\ \=\ (int)(Math.random()\ *\ size);\n\ \ \ \ creature.moveTowards(moves.get(randomMove).x,moves.get(randomMove).y);\n
+comment12.params=
+comment12.target=void\ moveIdle()
+comment12.text=\n\ 1.\ Gets\ possible\ moves\n\ 2.\ Chooses\ random\ location\ out\ of\ those\ moves\n\ 3.\ executes\ that\ move\n
+comment13.params=
+comment13.target=void\ moveIdleGhost()
+comment2.params=
+comment2.target=void\ init()
+comment3.params=
+comment3.target=void\ run()
+comment4.params=
+comment4.target=void\ action()
+comment5.params=x\ y
+comment5.target=void\ actionMove(float,\ float)
+comment6.params=
+comment6.target=void\ actionAttack()
+comment7.params=
+comment7.target=int\ chooseRandomDir()
+comment8.params=
+comment8.target=void\ actionIdle()
+comment9.params=x\ y
+comment9.target=void\ move(float,\ float)
+comment9.text=\n\ 1.\ Gets\ possible\ moves\n\ 2.\ Chooses\ random\ location\ out\ of\ those\ moves\n\ 3.\ executes\ that\ move\n
+numComments=14

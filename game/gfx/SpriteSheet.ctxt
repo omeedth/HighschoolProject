@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=sheet
+comment0.target=SpriteSheet(java.awt.image.BufferedImage)
+comment0.text=\n\ Takes\ in\ a\ file\ name\ for\ an\ image\ file\ that\ is\ a\ spritesheet\n
+comment1.params=x\ y\ width\ height
+comment1.target=java.awt.image.BufferedImage\ crop(int,\ int,\ int,\ int)
+comment1.text=\n\ returns\ the\ sub-image\ cropped\ out\ in\ the\ designated\ part\ of\ the\ spritesheet\n
+numComments=2

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=handler\ p
+comment0.target=UpgradeManager(game.Handler,\ game.entities.creature.Player)
+comment0.text=\n\ Initialize\ all\ variables\n
+comment1.params=x\ y
+comment1.target=void\ update(int,\ int)
+comment1.text=\n\ updates\ the\ variables\ in\ all\ the\ UI\ buttons\n\ 1.cycles\ through\ the\ list\ and\ updates\n
+comment2.params=
+comment2.target=void\ update()
+comment2.text=\n\ updates\ the\ variables\ in\ all\ the\ UI\ buttons\n\ 1.cycles\ through\ the\ list\ and\ updates\n
+comment3.params=g\ x\ y
+comment3.target=void\ render(java.awt.Graphics,\ float,\ float)
+comment3.text=\n\ renders\ all\ the\ UI\ buttons\n\ 1.cycles\ through\ the\ list\ and\ ticks\n
+comment4.params=o
+comment4.target=void\ addObject(UpgradeButton)
+comment4.text=\n\ adds\ an\ object\ to\ the\ list\n
+comment5.params=o
+comment5.target=void\ removeObject(UpgradeButton)
+comment5.text=\n\ removes\ an\ object\ from\ the\ list\n
+comment6.params=
+comment6.target=java.util.ArrayList\ getObjects()
+numComments=7

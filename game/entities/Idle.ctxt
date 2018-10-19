@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ actionIdle()
+comment0.text=\n\ 1.\ get\ possible\ directions\ it\ can\ move\ to\ (use\ canMove())\n\ 2.\ Randomly\ select\ a\ move\ to\ make\n\ 3.\ execute\ that\ move\n
+numComments=1

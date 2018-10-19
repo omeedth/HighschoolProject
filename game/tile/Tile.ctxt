@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=texture\ id
+comment0.target=Tile(java.awt.image.BufferedImage,\ int)
+comment0.text=\n\ Creates\ a\ Tile\ object\ with\ all\ the\ set\ parameters\n
+comment1.params=g\ x\ y
+comment1.target=void\ render(java.awt.Graphics,\ int,\ int)
+comment1.text=\n\ Render\ method\ -\ draws\ the\ tile\ to\ the\ screen\n
+comment2.params=
+comment2.target=void\ update()
+comment3.params=
+comment3.target=boolean\ isSolid()
+comment3.text=\n\ returns\ if\ the\ tile\ is\ walkable\ through\ or\ not\n\ \n\ I.E.\ BACKGROUND\ would\ return\ FALSE\ while\ FOREGROUND\ would\ be\ TRUE\n
+numComments=4

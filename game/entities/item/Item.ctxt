@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=x\ y\ width\ height\ bounds\ handler\ value
+comment0.target=Item(float,\ float,\ int,\ int,\ java.awt.Rectangle,\ game.Handler,\ int)
+comment0.text=\n\ Item\ Constructor\ that\ passes\ a\ value\ along\ with\ all\ previous\ entity\ variables\n
+comment1.params=g\ x\ y
+comment1.target=void\ render(java.awt.Graphics,\ float,\ float)
+comment1.text=\n\ Renders\ the\ items\ when\ they\ are\ not\ in\ inventory\n
+comment2.params=
+comment2.target=void\ pickUp()
+comment2.text=\n\ picks\ up\ item\ to\ store\ it\ in\ inventory\n\ 1.\ tests\ if\ you\ canPickUp()\ an\ item\n\ \ \ \ \ \ >\ if\ you\ canPickUp()\ item\ the\ item\ is\ placed\ in\ the\ empty\ inventory\ space\n
+comment3.params=
+comment3.target=int\ canPickUp()
+comment3.text=\n\ tests\ the\ inventory\ if\ there\ is\ a\ free\ space\n\ 1.\ returns\ the\ empty\ space\ inventory\ position\n\ 2.\ returns\ -1\ if\ no\ empty\ positions\n
+comment4.params=
+comment4.target=int\ getValue()
+comment5.params=
+comment5.target=boolean\ isInInventory()
+comment6.params=value
+comment6.target=void\ setValue(int)
+comment7.params=inInventory
+comment7.target=void\ setInInventory(boolean)
+numComments=8

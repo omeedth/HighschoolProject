@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=x\ y\ width\ height\ bounds\ handler\ value\ defense\ durability
+comment0.target=Armor(float,\ float,\ int,\ int,\ java.awt.Rectangle,\ game.Handler,\ int,\ int,\ int)
+comment0.text=\n\ Initialize\ defense\ and\ durability\n
+comment1.params=
+comment1.target=void\ update()
+comment2.params=g
+comment2.target=void\ render(java.awt.Graphics)
+comment3.params=
+comment3.target=int\ getDefense()
+comment4.params=
+comment4.target=int\ getDurability()
+comment5.params=defense
+comment5.target=void\ setDefense(int)
+comment6.params=durability
+comment6.target=void\ setDurability(int)
+numComments=7

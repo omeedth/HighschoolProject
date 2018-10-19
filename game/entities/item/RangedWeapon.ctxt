@@ -1,0 +1,31 @@
+#BlueJ class context
+comment0.params=x\ y\ width\ height\ bounds\ handler\ value\ damage\ cooldown\ knockbackX\ knockbackY\ p\ playerUse\ cre\ img
+comment0.target=RangedWeapon(float,\ float,\ int,\ int,\ java.awt.Rectangle,\ game.Handler,\ int,\ int,\ int,\ float,\ float,\ Projectile,\ boolean,\ game.entities.creature.Creature,\ java.awt.image.BufferedImage)
+comment1.params=
+comment1.target=void\ update()
+comment10.params=pl
+comment10.target=void\ useUp(game.entities.creature.Player)
+comment11.params=pl
+comment11.target=void\ useDown(game.entities.creature.Player)
+comment12.params=p
+comment12.target=void\ setProjectile(Projectile)
+comment13.params=cre
+comment13.target=void\ setWeaponUser(game.entities.creature.Creature)
+comment2.params=g
+comment2.target=void\ render(java.awt.Graphics)
+comment3.params=pl
+comment3.target=void\ use(game.entities.creature.Player)
+comment3.text=\n\ Get\ the\ speed\ of\ the\ projectile\ and\ use\ trigonometry\ //\ computers\ are\ automaticallys\ set\ to\ radians\n\ 1.\ test\ the\ cooldown\ if\ we\ canAttack();\n\ 2.\ angle\ \=\ 1\ /\ tan(y/x)\ \n\ 3.\ x\ \=\ r\ *\ cos\ (angle)\ \n\ 4.\ y\ \=\ r\ *\ sin\ (angle)\n
+comment4.params=c
+comment4.target=void\ knockbackRight(game.entities.creature.Creature)
+comment5.params=c
+comment5.target=void\ knockbackLeft(game.entities.creature.Creature)
+comment6.params=c
+comment6.target=void\ knockbackUp(game.entities.creature.Creature)
+comment7.params=c
+comment7.target=void\ knockbackDown(game.entities.creature.Creature)
+comment8.params=pl
+comment8.target=void\ useRight(game.entities.creature.Player)
+comment9.params=pl
+comment9.target=void\ useLeft(game.entities.creature.Player)
+numComments=14

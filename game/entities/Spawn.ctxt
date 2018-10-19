@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=handler\ speed\ spawn
+comment0.target=Spawn(game.Handler,\ int,\ Spawnable)
+comment1.params=
+comment1.target=void\ init()
+comment2.params=
+comment2.target=void\ spawn()
+comment3.params=
+comment3.target=void\ update()
+comment3.text=\n\ \ \ \ public\ void\ run()\n\ \ \ \ {\ \ \ \ \ \ \ \ \n\ \ \ \ \ \ \ \ long\ currNano\ \=\ System.nanoTime();\n\ \ \ \ \ \ \ \ long\ lastNano\ \=\ currNano;\n\ \ \ \ \ \ \ \ long\ lastMillis\ \=\ System.currentTimeMillis();\n\ \ \ \ \ \ \ \ double\ delta\ \=\ 0;\n\ \ \ \ \ \ \ \ int\ fps\ \=\ 10;\n\ \ \ \ \ \ \ \ int\ frames\ \=\ 0;\n\ \ \ \ \ \ \ \ int\ updates\ \=\ 0;\n\ \ \ \ \ \ \ \ double\ secondsPerFrame\ \=\ 1_000_000_000\ /\ fps;\ \ \n\n\ \ \ \ \ \ \ \ while(running)\n\ \ \ \ \ \ \ \ {\n\ \ \ \ \ \ \ \ \ \ \ \ boolean\ inGame\ \=\ State.inGameState;\n\ \ \ \ \ \ \ \ \ \ \ \ if(inGame)\n\ \ \ \ \ \ \ \ \ \ \ \ {\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ currNano\ \=\ System.nanoTime();\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ delta\ +\=\ (currNano\ -\ lastNano)\ /\ secondsPerFrame;\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ lastNano\ \=\ currNano;\n\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ if(delta\ >\=\ 1)\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ {\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ delta--;\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ //frames++;\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ //updates++;\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ update();\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\n\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ if((System.currentTimeMillis()\ -\ lastMillis)\ >\=\ 1000)\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ {\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ lastMillis\ +\=\ 1000;\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ lastNano\ \=\ currNano;\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ //System.out.println("Frames/Updates\:\ "\ +\ frames);\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ //frames\ \=\ 0;\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ //updates\ \=\ 0;\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ \ \ \ \ else\n\ \ \ \ \ \ \ \ \ \ \ \ {\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ currNano\ \=\ System.nanoTime();\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ lastNano\ \=\ currNano;\n\ \ \ \ \ \ \ \ \ \ \ \ }\n\ \ \ \ \ \ \ \ }\n\ \ \ \ }\n
+comment4.params=g\ x\ y\ width\ height
+comment4.target=void\ render(java.awt.Graphics,\ int,\ int,\ int,\ int)
+numComments=5

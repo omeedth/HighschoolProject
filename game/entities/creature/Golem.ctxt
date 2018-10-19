@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=x\ y\ width\ height\ bounds\ temper\ health\ damage\ speed\ handler\ extraExp
+comment0.target=Golem(float,\ float,\ int,\ int,\ java.awt.Rectangle,\ state.Temper,\ float,\ float,\ float,\ game.Handler,\ int)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Golem\n
+comment1.params=g
+comment1.target=void\ render(java.awt.Graphics)
+comment2.params=
+comment2.target=void\ update()
+comment3.params=
+comment3.target=void\ die()
+comment4.params=
+comment4.target=void\ action()
+numComments=5

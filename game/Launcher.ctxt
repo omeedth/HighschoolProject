@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Launcher
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Launcher\ here.\r\n\ \r\n\ @author\ Alex\ Thomas\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=main
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Creates\ a\ Game\ Object\ with\ a\ title,\ width,\ and\ height\r\n\ 1.initializes\ a\ Game\ Object\r\n\ 2.runs\ the\ start\ method\ in\ the\ Game\ class\r\n
+numComments=2

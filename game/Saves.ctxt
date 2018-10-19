@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Saves
+comment1.params=handler
+comment1.target=Saves(Handler)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Saves\r\n
+comment2.params=controls\ fileName
+comment2.target=void\ saveControls(byte[],\ java.lang.String)
+comment3.params=fileName
+comment3.target=byte[]\ loadControls(java.lang.String)
+comment4.params=fileName
+comment4.target=void\ loadSaveFile(java.lang.String)
+comment4.text=\r\n\ SinglePlayer\r\n\ Must\ load\:\r\n\ 1.\ spawnX\ spawnY\r\n\ 2.\ worldWidth\ worldHeight\r\n\ 3.\ speed,\ attack,\ health\r\n\ 4.\ currentWeapon\r\n
+comment5.params=p\ fileName
+comment5.target=void\ saveFile(entities.creature.Player,\ java.lang.String)
+comment5.text=\r\n\ Single\ Player\ Save\r\n
+comment6.params=fileName
+comment6.target=void\ loadMultiplayerSaveFile(java.lang.String)
+comment6.text=\r\n\ Multiplayer\ save\r\n
+comment7.params=fileName
+comment7.target=void\ saveMultiPlayerFile(java.lang.String)
+comment7.text=\r\n\ Single\ Player\ Save\r\n
+numComments=8

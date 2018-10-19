@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=handler\ song
+comment0.target=State(game.Handler,\ java.lang.String)
+comment0.text=\n\ pass\ in\ handler\ object\n
+comment1.params=
+comment1.target=void\ init()
+comment2.params=g
+comment2.target=void\ render(java.awt.Graphics)
+comment3.params=
+comment3.target=void\ update()
+comment4.params=
+comment4.target=State\ getState()
+comment5.params=state
+comment5.target=void\ setState(State)
+numComments=6

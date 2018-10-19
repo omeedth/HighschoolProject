@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=title\ width\ height
+comment0.target=Window(java.lang.String,\ int,\ int)
+comment0.text=\n\ Window\ Constructor\:\n\ -\ uses\ the\ makeWindow()\ method\n\ -\ add\ the\ canvas\ to\ the\ window\n
+comment1.params=title\ width\ height
+comment1.target=void\ makeWindow(java.lang.String,\ int,\ int)
+comment1.text=\n\ defines\ Window\:\n\ -\ size\n\ -\ location\n\ -\ exit\n\ -\ visibility\n\ -\ resizability\n\ -\ name\n
+comment2.params=
+comment2.target=javax.swing.JFrame\ getWindow()
+comment2.text=\n\ get\ Frame\n
+comment3.params=
+comment3.target=java.awt.Canvas\ getCanvas()
+comment3.text=\n\ get\ Canvas\n
+numComments=4

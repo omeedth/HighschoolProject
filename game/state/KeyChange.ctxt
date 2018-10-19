@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=key\ fileName\ handler
+comment0.target=KeyChange(char,\ java.lang.String,\ game.Handler)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ KeyChange\n
+comment1.params=title\ width\ height
+comment1.target=void\ makeWindow(java.lang.String,\ int,\ int)
+comment1.text=\n\ defines\ Window\:\n\ -\ size\n\ -\ location\n\ -\ exit\n\ -\ visibility\n\ -\ resizability\n\ -\ name\n
+comment2.params=g
+comment2.target=void\ paint(java.awt.Graphics)
+comment3.params=e
+comment3.target=void\ keyPressed(java.awt.event.KeyEvent)
+comment3.text=\n\ When\ you\ press\ a\ key\ that\ key\ will\ be\ set\ to\ true\n
+comment4.params=e
+comment4.target=void\ keyReleased(java.awt.event.KeyEvent)
+comment4.text=\n\ when\ you\ release\ a\ key\ it\ will\ be\ set\ to\ false\n
+comment5.params=e
+comment5.target=void\ keyTyped(java.awt.event.KeyEvent)
+comment5.text=\n\ not\ implementing\n
+numComments=6

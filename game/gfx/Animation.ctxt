@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=speed\ args
+comment0.target=Animation(int,\ java.awt.image.BufferedImage[])
+comment1.params=
+comment1.target=void\ runAnimation()
+comment1.text=\n\ 1.\ Tests\ if\ the\ index\ is\ index\ is\ greater\n\ \ \ \ than\ or\ equal\ to\ the\ speed\ of\ the\ animation\n\ \ \ \ \ \ \ \ \ \ >\ if\ so\ then\ it\ uses\ the\ nextFrame()\ method\n
+comment2.params=
+comment2.target=void\ nextFrame()
+comment2.text=\n\ Precondition\:\ The\ animation\ has\ atlease\ 1\ image\ in\ it\n\ 1.\ Tests\ if\ there\ is\ a\ next\ frame\n\ \ \ \ \ \ >\ if\ there\ is\ a\ next\ frame\ it\ adds\ one\ to\ the\ current\ frame\n\ \ \ \ \ \ \ \ (if\ not\ it\ resets\ back\ to\ 0)\n
+comment3.params=
+comment3.target=void\ reset()
+comment3.text=\n\ resets\ the\ currentFrame\ to\ 0\n
+comment4.params=g\ x\ y
+comment4.target=void\ drawAnimation(java.awt.Graphics,\ int,\ int)
+comment5.params=g\ x\ y\ scaleX\ scaleY
+comment5.target=void\ drawAnimation(java.awt.Graphics,\ int,\ int,\ int,\ int)
+comment6.params=
+comment6.target=java.awt.image.BufferedImage\ getCurrentFrame()
+comment6.text=\n\ Gets\ the\ currentFrame\ of\ the\ list\ and\ returns\ it\n
+numComments=7

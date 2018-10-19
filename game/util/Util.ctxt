@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=fileName
+comment0.target=java.lang.String\ loadFileAsString(java.lang.String)
+comment0.text=\n\ Load\ file\ as\ a\ string\n\ 1.loads\ the\ file\ from\ the\ path\n\ 2.converts\ everything\ into\ a\ string\n\ 3.returns\ the\ string\n
+comment1.params=token
+comment1.target=int\ parseInt(java.lang.String)
+comment1.text=\n\ converts\ a\ String\ into\ an\ Integer\n\ 1.surround\ code\ with\ a\ try\ catch\n\ 2.use\ Integer.parseInt(token);\n\ 3.catch\ exception\n
+comment2.params=token
+comment2.target=float\ parseFloat(java.lang.String)
+comment2.text=\n\ converts\ a\ String\ into\ an\ Integer\n\ 1.surround\ code\ with\ a\ try\ catch\n\ 2.use\ Integer.parseInt(token);\n\ 3.catch\ exception\n
+comment3.params=width\ height
+comment3.target=java.awt.Point\ randomLocation(int,\ int)
+comment4.params=startX\ startY\ width\ height
+comment4.target=java.awt.Point\ randomLocationWithin(int,\ int,\ int,\ int)
+numComments=5

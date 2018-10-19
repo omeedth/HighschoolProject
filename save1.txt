@@ -1,0 +1,1 @@
+560.5 574.5 game.entities.item.Fist game.entities.item.Mouth 1 0 2.5 143 100 0.0 10.0 10.0

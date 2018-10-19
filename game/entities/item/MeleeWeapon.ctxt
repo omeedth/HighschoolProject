@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=x\ y\ width\ height\ bounds\ handler\ value\ damage\ cooldown\ knockbackX\ knockbackY\ img
+comment0.target=MeleeWeapon(float,\ float,\ int,\ int,\ java.awt.Rectangle,\ game.Handler,\ int,\ float,\ int,\ float,\ float,\ java.awt.image.BufferedImage)
+comment0.text=\n\ Initialize\ all\ the\ bounds\ of\ the\ attack\n
+comment1.params=g
+comment1.target=void\ render(java.awt.Graphics)
+comment1.text=\n\ \ \ \ public\ void\ update()\n\ \ \ \ {\n\n\ \ \ \ }\n
+comment10.params=p
+comment10.target=void\ useDown(game.entities.creature.Player)
+comment2.params=p
+comment2.target=void\ use(game.entities.creature.Player)
+comment2.text=\n\ 1.\ tests\ the\ (x,y)\ position\ of\ where\ you\ click\n\ \ \ \ \ \ >\ if\ the\ x\ position\ is\ greater\ than\ the\ center\ of\ the\ player\ \n\ \ \ \ \ \ \ \ the\ character\ attacks\ to\ the\ right\ (otherwise\ attack\ to\ the\ left)\n\ 2.\ expand\ a\ bounding\ box\ around\ the\ player\ where\ the\ attack\ will\ be\ sent\n
+comment3.params=c
+comment3.target=void\ knockbackRight(game.entities.creature.Creature)
+comment4.params=c
+comment4.target=void\ knockbackLeft(game.entities.creature.Creature)
+comment5.params=c
+comment5.target=void\ knockbackUp(game.entities.creature.Creature)
+comment6.params=c
+comment6.target=void\ knockbackDown(game.entities.creature.Creature)
+comment7.params=p
+comment7.target=void\ useRight(game.entities.creature.Player)
+comment8.params=p
+comment8.target=void\ useLeft(game.entities.creature.Player)
+comment9.params=p
+comment9.target=void\ useUp(game.entities.creature.Player)
+numComments=11

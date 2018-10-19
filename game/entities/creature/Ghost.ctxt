@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=x\ y\ width\ height\ bounds\ health\ damage\ speed\ handler
+comment0.target=Ghost(float,\ float,\ int,\ int,\ java.awt.Rectangle,\ float,\ float,\ float,\ game.Handler)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Slime\n
+comment1.params=
+comment1.target=void\ init()
+comment2.params=
+comment2.target=void\ die()
+comment3.params=
+comment3.target=void\ action()
+comment4.params=x\ y
+comment4.target=void\ actionMove(float,\ float)
+comment4.text=\n\ \ \ \ public\ void\ aMove(Player\ p)\n\ \ \ \ {\n\ \ \ \ if(x\ <\ p.x)\ //\ go\ right\n\ \ \ \ {\n\ \ \ \ velX\ \=\ speed;\n\ \ \ \ }\n\ \ \ \ else\ if(x\ >\ p.x)\ //\ go\ left\n\ \ \ \ {\n\ \ \ \ velX\ \=\ -speed;\n\ \ \ \ }\ \ \ \ \n\n\ \ \ \ if(y\ <\ p.y)\ //\ go\ down\n\ \ \ \ {\n\ \ \ \ velY\ \=\ speed;\n\ \ \ \ }\n\ \ \ \ else\ if(y\ >\ p.y)\ //\ go\ up\n\ \ \ \ {\n\ \ \ \ velY\ \=\ -speed;\n\ \ \ \ }\n\ \ \ \ ghost.move();\n\ \ \ \ }\n
+comment5.params=
+comment5.target=void\ update()
+comment6.params=
+comment6.target=void\ actionIdle()
+comment6.text=\n\ 1.\ Get\ possible\ moves\ \n\ \ \ \ \ \ a)\ test\ if\ you\ can\ move\ in\ every\ direction\n
+comment7.params=g
+comment7.target=void\ render(java.awt.Graphics)
+numComments=8

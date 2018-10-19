@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=xOff\ yOff\ width\ height\ handler\ clicker\ args
+comment0.target=UpgradeButton(int,\ int,\ int,\ int,\ game.Handler,\ ClickableP,\ java.awt.image.BufferedImage[])
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ UpgradeButton\n
+comment1.params=p
+comment1.target=void\ onClick(game.entities.creature.Player)
+comment2.params=x\ y
+comment2.target=void\ update(int,\ int)
+comment3.params=p
+comment3.target=void\ update(game.entities.creature.Player)
+comment4.params=g\ x\ y
+comment4.target=void\ render(java.awt.Graphics,\ float,\ float)
+numComments=5
